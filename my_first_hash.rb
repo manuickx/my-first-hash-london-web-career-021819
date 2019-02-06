@@ -19,7 +19,7 @@ def retrieval
                   "oil paintings" => 3
                  }
   # Look up the value of the "oil paintings" key in the shipping_manifest hash below
- shipping_manifest.each {|key, value| puts "#{value}"}
+ shipping_manifest.each_value {|value| puts "#{value}"}
 end
 
 def adding
