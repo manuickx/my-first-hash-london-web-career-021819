@@ -6,11 +6,10 @@ def my_hash
 end
 
 
-def shipping_manifest(items, numbers)
-  items = {}
-  items["whale bone corsets"] = 5
-  items["porcelain vases"] = 2
-  items["oil paintings"] = 3
+def shipping_manifest
+  items = {"whale bone corsets" => 3, "porcelain vases" => 2, "oil paintings" =>3}
+end
+
   # set a variable called `the_manifest`, equal to a hash
   # fill that hash with key/value pairs that describe the following information: 
   # We have 5 whale bone corsets, 2 porcelain vases and 3 oil paintings 
