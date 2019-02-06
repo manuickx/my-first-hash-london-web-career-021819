@@ -12,7 +12,7 @@ end
   # We have 5 whale bone corsets, 2 porcelain vases and 3 oil paintings 
 
 
-def retrieval
+def retrieval(item)
   shipping_manifest = {
                   "whale bone corsets" => 5, 
                   "porcelain vases" => 2, 
