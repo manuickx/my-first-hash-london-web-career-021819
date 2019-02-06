@@ -6,7 +6,7 @@ def my_hash
 end
 
 
-def shipping_manifest
+def shipping_manifest(items, numbers)
   items = {}
   items["whale bone corsets"] = 5
   items["porcelain vases"] = 2
